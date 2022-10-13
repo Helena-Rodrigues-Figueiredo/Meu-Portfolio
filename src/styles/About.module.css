@@ -1,0 +1,28 @@
+.aboutme {
+  background: linear-gradient(
+        180deg,
+        #1f1e1e 0%,
+        #141414 15%,
+        rgba(0, 0, 0, 0.6) 100%
+      )
+      no-repeat,
+    url('../assets/images/background2.jpg') no-repeat;
+  background-size: cover;
+  height: 96vh;
+}
+
+.contentaboutme {
+    width: 60%;
+    margin: 150px auto;
+    align-items: center;
+    padding: 100px;
+}
+
+.h1aboutme {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.paboutme {
+    font-size: 1.3rem;
+}
