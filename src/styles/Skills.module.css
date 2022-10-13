@@ -10,3 +10,15 @@
     background-size: cover;
     height: 96vh;
   }
+
+.h1skills {
+  color: white;
+  text-align: center;
+  padding-top: 7%;
+  font-size: 3rem;
+}
+
+.skillscontainer {
+  display: flex;
+  flex-wrap: wrap;
+}

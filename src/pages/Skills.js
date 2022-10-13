@@ -1,41 +1,62 @@
 import styles from '../styles/Skills.module.css';
+import {
+  FaCss3Alt,
+  FaHtml5,
+  FaNodeJs,
+  FaJs,
+  FaGithub,
+  FaGitAlt,
+  FaReact,
+  FaDocker,
+} from 'react-icons/fa';
+import { SiRedux, SiJest, SiTypescript } from 'react-icons/si';
+import { GrMysql } from 'react-icons/gr';
+import { TbBrandNextjs } from 'react-icons/tb';
 
 export default function Skills() {
   return (
     <>
       <section className={styles.skills}>
         <h1 className={styles.h1skills}>Habilidades</h1>
-        <div className={styles.skillcontainer}>
+        <div className={styles.skillscontainer}>
           <div className={styles.skill}>
-            <p className={styles.pskill}>
-              O CSS é utilizado para estilizar um documento web. Aprendi toda a
-              base de CSS, e também como fazer sites responsivos com Media
-              Queries e um pouco sobre o Framework Bootstrap.
-            </p>
+            <FaCss3Alt size={100} />
           </div>
           <div className={styles.skill}>
-            <p className={styles.pskill}>
-              O HTML é uma linguagem de marcação utilizada na construção de
-              páginas na Web. Aprendi como montar a estrutura de uma página com
-              HTML semântico.
-            </p>
+            <FaHtml5 size={100} />
           </div>
           <div className={styles.skill}>
-            <p className={styles.pskill}>
-              O JavaScript é uma linguagem de programação muito utilizada hoje
-              em dia. Algumas das principais coisas que aprendi em JavaScript
-              foram: DOM, Eventos, Web Storage, ESC, Testes Unitários com Jest,
-              HOF, Fetch API e async/await.
-            </p>
+            <FaNodeJs size={100} />
           </div>
           <div className={styles.skill}>
-            <p className={styles.pskill}>
-              O React é uma biblioteca JavaScript utilizada para contruir
-              interfaces de usuário. Estou estudando React e até o momento
-              algumas das coisas que aprendi foram: Componentes com Estado,
-              Ciclo de Vida dos Componentes, React Router, Testes Automatizados
-              com RTL e Redux.
-            </p>
+            <FaJs size={100} />
+          </div>
+          <div className={styles.skill}>
+            <FaGithub size={100} />
+          </div>
+          <div className={styles.skill}>
+            <FaGitAlt size={100} />
+          </div>
+          <div className={styles.skill}>
+            <FaReact size={100} />
+          </div>
+          <div className={styles.skill}>
+            <SiRedux size={100} />
+          </div>
+          <div className={styles.skill}>
+            <FaDocker size={100} />
+          </div>
+          <div className={styles.skill}>
+            <GrMysql size={100} />
+          </div>
+          <div className={styles.skill}>
+            <SiJest size={100} />
+          </div>
+          <div className={styles.skill}>
+            <SiTypescript size={100} />
+          </div>
+          <div className={styles.skill}>
+            <TbBrandNextjs size={100} />
           </div>
         </div>
       </section>
