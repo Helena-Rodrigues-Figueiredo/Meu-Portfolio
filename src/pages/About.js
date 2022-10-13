@@ -1,9 +1,11 @@
 import styles from '../styles/About.module.css';
+import photo from '../assets/images/fotoHelena.jpeg'
 
 export default function About() {
   return (
     <>
       <section className={styles.aboutme}>
+        <img src={photo} alt="foto helena" className={ styles.photo } />
         <div className={styles.contentaboutme}>
           <h1 className={styles.h1aboutme}>Sobre Mim</h1>
           <p className={styles.paboutme}>

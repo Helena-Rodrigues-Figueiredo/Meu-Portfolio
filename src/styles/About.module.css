@@ -9,13 +9,14 @@
     url('../assets/images/background2.jpg') no-repeat;
   background-size: cover;
   height: 96vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contentaboutme {
-    width: 60%;
-    padding: 100px;
+    width: 40%;
     height: 100vh;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,4 +29,12 @@
 
 .paboutme {
     font-size: 1.3rem;
+}
+
+.photo {
+  width: 400px;
+  height: 400px;
+  margin-right: 60px;
+  border-radius: 5% 50%;
+  filter: grayscale(40%);
 }

@@ -6,6 +6,7 @@
   font-family: poppins;
   font-weight: 300;
   color: white;
+  overflow-y: hidden;
 }
 
 .linkedingithub {

@@ -21,4 +21,13 @@
 .skillscontainer {
   display: flex;
   flex-wrap: wrap;
+  width: 70%;
+  margin: 70px auto;
+  height: 60vh;
+  justify-content: center;
+}
+
+.skill {
+  padding: 10px 40px;
+  text-align: center;
 }
