@@ -3,15 +3,10 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: poppins;
+  font-weight: 300;
   color: white;
-  overflow: hidden;
 }
-
-html {
-  scroll-behavior: smooth;
-  background-color: #7e7e7e;
-}
-
 
 .linkedingithub {
   color: white;
