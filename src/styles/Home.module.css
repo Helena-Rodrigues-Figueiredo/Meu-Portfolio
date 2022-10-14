@@ -30,23 +30,6 @@
   background-size: cover;
 }
 
-.color {
-  position: absolute;
-  z-index: 0;
-  right: 3%;
-  height: 75vh;
-  opacity: 0.9;
-  top: 19%;
-}
-
-.photo {
-  position: absolute;
-  right: 3%;
-  bottom: 0;
-  z-index: 1;
-  height: 80vh;
-}
-
 .apresimg {
   margin-top: 10%;
 }
@@ -100,4 +83,44 @@
 .social {
   text-align: center;
   padding: 50px 0;
+}
+
+@media (max-width:480px) {
+  .home {
+    padding-left: 0;
+  }
+
+  .apresimg {
+    margin-top: 50%;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .myname {
+    font-size: 1rem;
+  }
+  
+  .name {
+    font-size: 5.6vh;
+  }
+  
+  .trybe {
+    font-size: 3vh;
+  }
+  
+  .linkedingithub {
+    text-decoration: none;
+    padding: 10px 25px;
+    margin: 20px;
+  }
+  
+  .linkedingithub:hover {
+    background-color: rgb(201, 71, 78);
+    color: white;
+  }
+  
+  .social {
+    font-size: 0.8rem;
+    padding: 35px 0;
+  }
 }

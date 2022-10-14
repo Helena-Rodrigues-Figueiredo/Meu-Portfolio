@@ -24,7 +24,7 @@ export default function Skills() {
             <h2>CSS</h2>
           </div>
           <div className={styles.skill}>
-            <FaHtml5 size={100} />
+            <FaHtml5  size={100} />
             <h2>HTML</h2>
           </div>
           <div className={styles.skill}>
