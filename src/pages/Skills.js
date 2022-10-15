@@ -1,4 +1,5 @@
 import styles from '../styles/Skills.module.css';
+import { useState, useEffect } from 'react';
 import {
   FaCss3Alt,
   FaHtml5,
@@ -14,61 +15,83 @@ import { GrMysql } from 'react-icons/gr';
 import { TbBrandNextjs } from 'react-icons/tb';
 
 export default function Skills() {
+  const [iconSize, setIconSize] = useState();
+
+  useEffect(() => {
+    const newWidth = window.innerWidth;
+    if (newWidth <= 480) {
+      return setIconSize(40);
+    } else {
+      setIconSize(100);
+    }
+  });
+
+  useEffect(() => {
+    const updateWindowDimensions = () => {
+      const newWidth = window.innerWidth;
+      if (newWidth <= 480) {
+        return setIconSize(40);
+      }
+      setIconSize(100);
+    };
+    window.addEventListener("resize", updateWindowDimensions);
+  }, []);
+
   return (
     <>
       <section className={styles.skills}>
         <h1 className={styles.h1skills}>Habilidades</h1>
         <div className={styles.skillscontainer}>
           <div className={styles.skill}>
-            <FaCss3Alt size={100} />
+            <FaCss3Alt className="css" size={iconSize} />
             <h2>CSS</h2>
           </div>
           <div className={styles.skill}>
-            <FaHtml5  size={100} />
+            <FaHtml5  size={iconSize} />
             <h2>HTML</h2>
           </div>
           <div className={styles.skill}>
-            <FaNodeJs size={100} />
+            <FaNodeJs size={iconSize} />
             <h2>Node</h2>
           </div>
           <div className={styles.skill}>
-            <FaJs size={100} />
+            <FaJs size={iconSize} />
             <h2>Javascript</h2>
           </div>
           <div className={styles.skill}>
-            <FaGithub size={100} />
+            <FaGithub size={iconSize} />
             <h2>Github</h2>
           </div>
           <div className={styles.skill}>
-            <FaGitAlt size={100} />
+            <FaGitAlt size={iconSize} />
             <h2>Git</h2>
           </div>
           <div className={styles.skill}>
-            <FaReact size={100} />
+            <FaReact size={iconSize} />
             <h2>React</h2>
           </div>
           <div className={styles.skill}>
-            <SiRedux size={100} />
+            <SiRedux size={iconSize} />
             <h2>Redux</h2>
           </div>
           <div className={styles.skill}>
-            <FaDocker size={100} />
+            <FaDocker size={iconSize} />
             <h2>Docker</h2>
           </div>
           <div className={styles.skill}>
-            <GrMysql size={100} />
+            <GrMysql size={iconSize} />
             <h2>MySQL</h2>
           </div>
           <div className={styles.skill}>
-            <SiJest size={100} />
+            <SiJest size={iconSize} />
             <h2>Jest</h2>
           </div>
           <div className={styles.skill}>
-            <SiTypescript size={100} />
+            <SiTypescript size={iconSize} />
             <h2>Typescript</h2>
           </div>
           <div className={styles.skill}>
-            <TbBrandNextjs size={100} />
+            <TbBrandNextjs size={iconSize} />
             <h2>Next</h2>
           </div>
         </div>

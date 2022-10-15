@@ -5,3 +5,9 @@
     font-size: 15px;
     height: 4vh;
   }
+
+  @media (max-width:480px) {
+    .footer {
+      font-size: 10px;
+    }
+  }
