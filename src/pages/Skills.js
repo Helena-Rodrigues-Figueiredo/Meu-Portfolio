@@ -20,9 +20,11 @@ export default function Skills() {
   useEffect(() => {
     const newWidth = window.innerWidth;
     if (newWidth <= 480) {
-      return setIconSize(40);
+      return setIconSize(45);
+    } else if (newWidth > 480 && newWidth <= 768) {
+      return setIconSize(65);
     } else {
-      setIconSize(100);
+      return setIconSize(90);
     }
   });
 
@@ -30,9 +32,12 @@ export default function Skills() {
     const updateWindowDimensions = () => {
       const newWidth = window.innerWidth;
       if (newWidth <= 480) {
-        return setIconSize(40);
-      }
-      setIconSize(100);
+        return setIconSize(45);
+      } else if (newWidth > 480 && newWidth <= 768) {
+        return setIconSize(70);
+      } else {
+        return setIconSize(90);
+      };
     };
     window.addEventListener("resize", updateWindowDimensions);
   }, []);

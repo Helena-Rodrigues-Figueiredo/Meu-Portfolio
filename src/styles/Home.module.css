@@ -124,3 +124,40 @@
     padding: 35px 0;
   }
 }
+@media (min-width: 481px) and (max-width: 768px) {
+  .home {
+    padding-left: 5vh;
+  }
+
+  .apresimg {
+    margin-top: 30%;
+  }
+  
+  .myname {
+    font-size: 1.5rem;
+  }
+  
+  .name {
+    font-size: 8vh;
+  }
+  
+  .trybe {
+    font-size: 4vh;
+  }
+  
+  .linkedingithub {
+    text-decoration: none;
+    padding: 12px 35px;
+    margin: 20px;
+  }
+  
+  .linkedingithub:hover {
+    background-color: rgb(201, 71, 78);
+    color: white;
+  }
+  
+  .social {
+    font-size: 0.8rem;
+    padding: 35px 0;
+  }
+}

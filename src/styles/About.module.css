@@ -10,8 +10,9 @@
   background-size: cover;
   height: 96vh;
   display: flex;
-
+  justify-content: center;
   align-items: center;
+  padding-top: 1rem;
 }
 
 .contentaboutme {
@@ -20,6 +21,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 1rem;
 }
 
 .h1aboutme {
@@ -28,11 +30,11 @@
 }
 
 .paboutme {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .photo {
-  width: 400px;
+  width: 420px;
   height: 400px;
   margin-right: 60px;
   border-radius: 5% 50%;
@@ -63,5 +65,57 @@
 
   .paboutme {
     font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .aboutme {
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .contentaboutme {
+    width: 85%;
+    height: 50vh;
+  }
+
+  .photo {
+    width: 260px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .h1aboutme {
+    font-size: 1.8rem;
+  }
+
+  .paboutme {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .aboutme {
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .contentaboutme {
+    width: 80%;
+    height: 50vh;
+  }
+
+  .photo {
+    width: 280px;
+    height: 270px;
+    margin: 0 auto;
+  }
+
+  .h1aboutme {
+    font-size: 2rem;
+  }
+
+  .paboutme {
+    font-size: 1rem;
   }
 }

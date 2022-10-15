@@ -86,3 +86,65 @@
     font-size: 0.8rem;
   }
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .h1projects {
+    font-size: 1.8rem;
+    margin-top: 5vh;
+  }
+
+  .containerprojects {
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    height: 80vh;
+  }
+
+  .project {
+    width: 40%;
+    height: 43%;
+  }
+
+  .imgproject {
+    font-size: 0.9rem;
+  }
+  
+  .h2project {
+    font-size: 0.9rem;
+  }
+  
+  .pproject {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .h1projects {
+    font-size: 2rem;
+    margin-top: 2.5vh;
+  }
+
+  .containerprojects {
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    height: 78vh;
+  }
+
+  .project {
+    width: 40%;
+    height: 45%;
+  }
+
+  .imgproject {
+    font-size: 1rem;
+  }
+  
+  .h2project {
+    font-size: 0.9rem;
+  }
+  
+  .pproject {
+    font-size: 0.8rem;
+  }
+}

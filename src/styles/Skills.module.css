@@ -20,8 +20,8 @@
 .skillscontainer {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
-  margin: 70px auto;
+  width: 90%;
+  margin: 50px auto;
   height: 60vh;
   justify-content: center;
 }
@@ -35,7 +35,7 @@
   .skillscontainer {
     width: 90%;
     margin: 40px auto;
-    height: 75vh;
+    height: 70vh;
   }
 
   .h1skills {
@@ -46,5 +46,41 @@
   .skill {
     padding: 8px 20px;
     font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .skillscontainer {
+    width: 80%;
+    margin: 40px auto;
+    height: 70vh;
+  }
+
+  .h1skills {
+    font-size: 2rem;
+    margin-top: 3.5rem;
+  }
+
+  .skill {
+    padding: 8px 20px;
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .skillscontainer {
+    width: 90%;
+    margin: 40px auto;
+    height: 70vh;
+  }
+
+  .h1skills {
+    font-size: 2.7rem;
+    margin-top: 2rem;
+  }
+
+  .skill {
+    padding: 8px 20px;
+    font-size: 0.7rem;
   }
 }
