@@ -30,6 +30,8 @@
   box-shadow: 0px 0px 5px rgb(201, 71, 78);
   background-color: #202020;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project:hover {
@@ -39,10 +41,13 @@
 
 .imgproject {
   height: 60%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  margin: 0 auto 10px;
+  border-radius: 10px 10px 60px 60px;
 }
 
 .h2project {
@@ -51,9 +56,20 @@
   height: 10%;
 }
 
-.pproject {
+.buttonproject {
   text-align: center;
-  height: 30%;
+  height: 13%;
+  background-color: rgb(201, 71, 78, 0.8);
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+
+.buttonproject:hover {
+  background-color: rgb(255, 217, 0);
+  color: black;
+  cursor: pointer;
 }
 
 @media (max-width:480px) {
@@ -82,7 +98,7 @@
     font-size: 0.9rem;
   }
   
-  .pproject {
+  .buttonproject {
     font-size: 0.8rem;
   }
 }
@@ -113,7 +129,7 @@
     font-size: 0.9rem;
   }
   
-  .pproject {
+  .buttonproject {
     font-size: 0.8rem;
   }
 }
@@ -144,7 +160,7 @@
     font-size: 0.9rem;
   }
   
-  .pproject {
+  .buttonproject {
     font-size: 0.8rem;
   }
 }
