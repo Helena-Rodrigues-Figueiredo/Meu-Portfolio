@@ -1,5 +1,5 @@
 .header {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 2;
@@ -72,13 +72,11 @@
     }
 
     .navmenu {
-      position: fixed;
-      right: -100%;
-      top: 71px;
+      position: relative;
+      margin-top: -100%;
       gap: 0;
       flex-direction: column;
-      background-color: black;
-      width: 100%;
+      width: 80%;
       text-align: center;
       transition: 0.3s;
       z-index: 100;
@@ -89,6 +87,10 @@
     }
 
     .navmenu.active {
-      right: 0;
+      margin-top: 0;
+    }
+
+    .header.active {
+      background-color: black;
     }
   }

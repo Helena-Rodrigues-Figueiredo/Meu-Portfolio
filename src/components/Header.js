@@ -10,7 +10,7 @@ export default function Header() {
   };
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${active && styles.active}`}>
       <nav className={styles.navbar}>
         <img src={Logo} width={70} height={50} alt="logo" id="logo" />
         <ul className={`${styles.navmenu} ${active && styles.active}`}>
