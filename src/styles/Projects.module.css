@@ -135,14 +135,14 @@
 @media (max-width: 480px) {
   .h1projects {
     font-size: 1.8rem;
-    margin-top: 8vh;
+    margin-top: 6vh;
   }
 
   .containerprojects {
     width: 95%;
     margin: 0 auto;
     flex-wrap: wrap;
-    height: 80vh;
+    height: 75vh;
   }
 
   .project {

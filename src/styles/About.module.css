@@ -49,13 +49,14 @@
 
   .contentaboutme {
     width: 80%;
-    height: 55vh;
-    bottom: 0;
+    height: 58vh;
+    padding-top: 0;
+    justify-content: flex-start;
   }
 
   .photo {
-    width: 230px;
-    height: 220px;
+    width: 210px;
+    height: 200px;
     margin: 0 auto;
   }
 
