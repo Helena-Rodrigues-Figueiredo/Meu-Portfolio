@@ -209,14 +209,14 @@ export default function Projects() {
                   </p>
                   <div className={styles.projectlinks}>
                     <a
-                      href="https://github.com/Helena-Rodrigues-Figueiredo/trybetunes"
+                      href="trybetunes-h.surge.sh"
                       target="_blank"
                       rel="noreferrer"
                     >
                       Deploy da aplicação
                     </a>
                     <a
-                      href="https://github.com/Helena-Rodrigues-Figueiredo/trybetunes"
+                      href="https://github.com/Helena-Rodrigues-Figueiredo/trybetunes-project"
                       target="_blank"
                       rel="noreferrer"
                     >

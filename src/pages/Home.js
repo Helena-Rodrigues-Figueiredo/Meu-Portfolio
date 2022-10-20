@@ -15,7 +15,7 @@ export default function Home() {
             </h1>
             <h2 className={styles.trybe}>
               <span className={styles.desenvolvedora}>Desenvolvedora</span>{' '}
-              Front-End
+              Full-Stack
             </h2>
             <div className={styles.social}>
               <a
