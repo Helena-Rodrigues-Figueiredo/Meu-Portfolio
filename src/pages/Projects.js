@@ -209,7 +209,7 @@ export default function Projects() {
                   </p>
                   <div className={styles.projectlinks}>
                     <a
-                      href="trybetunes-h.surge.sh"
+                      href="https://trybetunes-h.surge.sh"
                       target="_blank"
                       rel="noreferrer"
                     >
